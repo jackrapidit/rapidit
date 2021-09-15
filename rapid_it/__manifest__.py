@@ -9,10 +9,11 @@
     'maintainer': "Smart IT Ltd",
     'website': 'smart-ltd.co.uk',
     'images': [],
-    "depends": ['sale', 'sale_ebay'],
+    "depends": ['sale', 'sale_ebay', 'website_crm_partner_assign'],
     "init_xml": [],
     "demo_xml": [],
     "data": [
+        'views/portal_views_inherit.xml'
     ],
     'qweb': [
     ],
